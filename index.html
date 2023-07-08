@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deky's Dice</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Dices/dices.css">
+</head>
+    <body>
+        <header>
+            <h1 class="title">Deky's Dice</h1>
+            <section class="menu">
+                <ul class="menu--list">
+                    <li class="menu--item"><a href="index.html" class="menu--link">Dices</a></li>
+                    <li class="menu--item"><a href="#">Iniciative</a></li>
+                    <li class="menu--item"><a href="#">Roll Monsters</a></li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <section class="dice-roll-text">
+                <h2 class="dice-roll" id="dice-roll">100</h2>
+            </section>
+            <section class="buttons">
+                <button class="button button-dices" onclick="d4()">D4</button>
+                <button class="button button-dices" onclick="d6()">D6</button>
+                <button class="button button-dices" onclick="d8()">D8</button>
+                <button class="button button-dices" onclick="d10()">D10</button>
+                <button class="button button-dices" onclick="d12()">D12</button>
+                <button class="button button-dices" onclick="d20()">D20</button>
+                <button class="button button-dices" onclick="d100()">D100</button>
+            </section>
+            <section class="dices-bonus">
+                <label class="text-bonus text-add" for="bonus-input-add">Add bonus</label>
+                <input type="number" class="bonus-input" id="bonus-input-add">
+                <button class="button-bonus button" onclick="add()">add</button>
+                
+                <label class="text-bonus text-withdraw" for="bonus-input-withdraw">withdraw bonus</label>
+                <input type="number" class="bonus-input" id="bonus-input-withdraw">
+                <button class="button button-bonus" onclick="withdraw()">withdraw</button>
+            </section>
+        </main>
+        <footer>
+            <h3 class="footer">copyright &copy; 2022 Deky's Dice</h3>
+        </footer>
+
+        <script src="javaScript/dados.js"></script>
+    </body>
+</html>

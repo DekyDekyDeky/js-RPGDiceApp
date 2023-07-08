@@ -1,0 +1,32 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(button.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Open+Sans+Condensed:wght@300;700&family=Source+Code+Pro:wght@200;300;500&display=swap');
+
+:root {
+    --EBGaramond: 'EB Garamond', serif;
+
+    --text-color: white;
+
+    --title-weight: 700;
+
+    --bg: #858585;
+    --front-bg: #474747;
+}
+
+html {
+    background-color: var(--bg);
+    font-family: var(--EBGaramond);
+    color: var(--text-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--EBGaramond);
+}
+
+a:visited{
+    color: var(--text-color);
+}

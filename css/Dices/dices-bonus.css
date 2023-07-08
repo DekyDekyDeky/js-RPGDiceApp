@@ -1,0 +1,14 @@
+.dices-bonus {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus-input {
+    margin: 2rem 0;
+}
+
+.text-withdraw {
+    margin-top: 2.5rem;
+}

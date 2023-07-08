@@ -1,0 +1,13 @@
+footer {
+    margin-top: 2rem;
+    background-color: var(--front-bg);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 1.25rem;
+    text-align: center;
+}

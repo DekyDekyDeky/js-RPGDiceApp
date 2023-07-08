@@ -1,0 +1,23 @@
+.bonus-input {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+
+    background-color: var(--front-bg);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.bonus-input:focus {
+    border: solid 2px var(--text-color);
+}
+
+.button-bonus {
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 2rem;
+}
